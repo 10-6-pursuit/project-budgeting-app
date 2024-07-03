@@ -63,8 +63,8 @@ To complete the front-end application, you will need to build a React applicatio
 1. Forms should be properly labeled and the `type` of inputs should be properly set. For example, an input that requires a `number` should have type `number`, not `text`.
 1. When a new transaction form is submitted, the transaction should be created in the backend and the user should be brought to that new transaction's Show page.
 1. On the transaction's Show page, there should be a button to edit the current transaction. When clicked, the user is brought to a form page with data already filled in that can be edited.
-1. When an edited transaction form is submitted, the transaction should be edited in the backend and the user should be brought to that new transaction's Show page.
-1. On the transaction's Show page, there should be a button to delete the current show page.
+1. When an edited transaction form is submitted, the transaction should be edited in the backend and the user should be brought to that edited transaction's Show page.
+1. On the transaction's Show page, there should be a button to delete the current show page. When clicked it should delete the transaction and navigate you to the index page
 1. Using the transaction's data, perform a calculation that can be performed on the front-end application and displayed to the user on the Index page. For example, the bank account total should be visible. In addition to the total, the CSS should change based on the value - use a greenish color if the bank account total is above 100, use a yellowish color if the bank account total is between 0 and 100 and a reddish color if the bank account total is less than 0. You can change the background or text or both.
 
 ### Mastery rubric
@@ -75,7 +75,7 @@ This section of the project is designed to measure your increasing skill at writ
 
 This section of the project measures your ability to go above and beyond in creating your project. To score points in this section, you should incorporate a feature, technology, or skill not explicitly required by the project instructions.
 
-When you submit your pull request, _make sure to include a description of any stretch goals you implemented._ You may choose from the list below or come up with features or tasks that are more relevant to your specific implementation of the project.
+When you submit your project, _make sure to include a description of any stretch goals you implemented in one of the readmes_ You may choose from the list below or come up with features or tasks that are more relevant to your specific implementation of the project.
 
 - Make `categories` a `select` HTML element on the new/edit forms to allow the user to choose from a pull-down menu from the available categories, and allow for the addition of new categories to the options menu.
 - Display the bank account total in the nav bar (or similar component that is visible on all views), instead of just on the index page.
